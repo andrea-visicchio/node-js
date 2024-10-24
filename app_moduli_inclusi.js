@@ -16,7 +16,7 @@ http => questo modulo ci permetterà di creare un Server WEB
 
 
 */
-const { log, info } = require('console');
+
 const os = require('os');
 
 const utente_corrente = os.userInfo();
@@ -28,9 +28,9 @@ possiamo creare un oggetto, le cui prorpietà conterranno una serie di dati, pro
 */
 const info_pc = {
 
-    nome : os.type(),
-    versione : os.release(),
-    memoria : os.totalmem()
+    nome : os.type(), // sistema operativo del dispositivo su cui eseguiamo node
+    versione : os.release(), // versione del S.O.
+    memoria : os.totalmem() // la quantità, in byte, della memoria RAM del dispositivi
 
 }
 

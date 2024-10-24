@@ -49,5 +49,6 @@ miaFunzione.rif_moltiplicazione(48, 56);
 calcolatrice.funzione_somma(51, 89);
 calcolatrice.funzione_divisione(10, 2);
 
+//calcolatrice = 1;
 
-
+calcolatrice.funzione_divisione(12, 56);
