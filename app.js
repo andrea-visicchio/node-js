@@ -1,5 +1,7 @@
 const miaFunzione = require('./moduli-miei/mio_modulo.js');
 
+const calcolatrice = require('./moduli-miei/calcolatrice.js');
+
 console.log("Ciao, sono la prima app in node JS");
 let x = 1;
 let y = 2;
@@ -42,6 +44,10 @@ miaFunzione.rif_funzione2();
 miaFunzione.rif_funzione3()
 
 miaFunzione.rif_moltiplicazione(48, 56);
+
+
+calcolatrice.funzione_somma(51, 89);
+calcolatrice.funzione_divisione(10, 2);
 
 
 
